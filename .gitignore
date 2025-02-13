@@ -1,0 +1,35 @@
+# Ignore build directories
+/build/
+
+# Ignore CMake cache and logs
+CMakeCache.txt
+CMakeFiles/
+CMakeConfigureLog.yaml
+CMakeDirectoryInformation.cmake
+CMakeScratch/
+cmake_install.cmake
+cmake.check_cache
+CMakeLists.txt.user
+CMakeLists.txt.private
+
+# Ignore Makefiles and generated files from CMake
+Makefile
+Makefile2
+TargetDirectories.txt
+progress.marks
+helloworld.dir/
+helloworld/
+pkgRedirects
+
+# Object files
+*.o
+
+# Executables and binaries
+helloworld
+
+# Other generated files
+*.a
+*.so
+*.d
+*.lib
+*.exe
