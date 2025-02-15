@@ -17,19 +17,26 @@ Makefile
 Makefile2
 TargetDirectories.txt
 progress.marks
-helloworld.dir/
-helloworld/
 pkgRedirects
 
-# Object files
+# Ignore object files and executables
 *.o
-
-# Executables and binaries
-helloworld
-
-# Other generated files
 *.a
 *.so
 *.d
 *.lib
 *.exe
+
+# Ignore compiled executables
+helloworld
+libadd.a
+
+# Ignore CMake specific files
+*.cmake
+
+# Ignore other generated files
+compile_commands.json
+
+# Ignore directories containing CMake specific information
+lib/CMakeFiles/
+src/CMakeFiles/
